@@ -1,46 +1,57 @@
 {
-  "name": "asana",
+  "name": "notubiz-client",
   "version": "1.0.0",
-  "description": "TypeScript boilerplate project",
+  "description": "A TypeScript API client for the Notubiz platform.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "start": "node dist/index.js",
+    "start": "node -e \"console.log('The Notubiz client is a library package. See the README for usage examples.')\"",
     "clean": "rm -rf dist",
-    "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
-    "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
-    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write '{src,test,examples}/**/*.{ts,json,md}' README.md --config ./.prettierrc",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
-  "keywords": [],
+  "keywords": [
+    "notubiz",
+    "api-client",
+    "typescript",
+    "council",
+    "meetings"
+  ],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "asana": "^3.1.11",
-    "dotenv": "^17.4.1",
-    "winston": "^3.19.0"
-  },
+  "license": "LGPL-3.0-only",
   "devDependencies": {
     "@types/node": "^20.12.7",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-n": "^15.3.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.1",
-    "eslint-plugin-react": "^7.31.8",
-    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "prettier": "^2.7.1",
-    "typescript": "~5.1.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "tsx": "^4.21.0",
+    "typescript": "~5.1.0",
+    "vitest": "^3.2.4"
   }
 }

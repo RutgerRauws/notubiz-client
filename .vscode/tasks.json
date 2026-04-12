@@ -1,14 +1,19 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"label": "build",
-			"type": "shell",
-			"command": "npm run build",
-			"problemMatcher": [
-				"$tsc"
-			],
-			"group": "build"
-		}
-	]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "npm run build",
+      "problemMatcher": ["$tsc"],
+      "group": "build",
+      "presentation": {
+        "echo": false,
+        "showReuseMessage": false,
+        "close": false,
+        "panel": "shared",
+        "focus": false
+      }
+    }
+  ]
 }

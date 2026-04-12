@@ -1,0 +1,29 @@
+import { AssembliesClient } from './clients/assemblies'
+import { EventsClient } from './clients/events'
+import { MeetingsClient } from './clients/meetings'
+import { SpeakersClient } from './clients/speakers'
+import {
+  type NotubizClientOptions,
+  type ResolvedNotubizClientOptions,
+  resolveClientOptions,
+} from './configuration'
+import { HttpClient } from './http'
+
+export class NotubizClient {
+  public readonly assemblies: AssembliesClient
+  public readonly events: EventsClient
+  public readonly meetings: MeetingsClient
+  public readonly speakers: SpeakersClient
+  public readonly configuration: ResolvedNotubizClientOptions
+
+  public constructor(options: NotubizClientOptions) {
+    this.configuration = resolveClientOptions(options)
+
+    const httpClient = new HttpClient(this.configuration)
+
+    this.assemblies = new AssembliesClient(httpClient)
+    this.events = new EventsClient(httpClient)
+    this.meetings = new MeetingsClient(httpClient)
+    this.speakers = new SpeakersClient(httpClient)
+  }
+}

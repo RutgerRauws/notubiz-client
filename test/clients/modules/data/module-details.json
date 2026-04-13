@@ -1,0 +1,653 @@
+{
+  "pagination": {
+    "@attributes": {
+      "list_start": 0,
+      "list_end": 5,
+      "total_results": 5
+    }
+  },
+  "item": [
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Datum vergadering",
+            "value": "2025-01-07 00:00:00",
+            "@attributes": {
+              "id": 15,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Toegankelijkheid - OV concessie (Agenderingsverzoek 50PLUS, SP, LPF, Volt, FvD en VVD)",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Tekst toezegging",
+            "value": "<p>Wethouder Strijk zegt toe dat de toegankelijkheid beter zal worden toegelicht in het position paper.</p>",
+            "@attributes": {
+              "id": 61,
+              "datatype": "text",
+              "order": 4,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Toezegging",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 7,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Portefeuillehouder",
+            "values": {
+              "value": [
+                {
+                  "@cdata": "R. Strijk (Wethouder)",
+                  "@attributes": {
+                    "id": 248564,
+                    "reference_model": "role"
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 23,
+              "datatype": "varchar",
+              "order": 10,
+              "multiple": 1,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Stand van zaken",
+            "value": "<p>Conform de verzamelbrief: <em>Uitvoering toezeggingen vanuit portefeuille wethouder Strijk</em>, van 18 februari 2025.&nbsp; (nr. 3) <strong>VOORSTEL COLLEGE AFVOEREN.</strong></p>\n<p><strong><a href=\"/document/15173357/2/7876051_2_5_1_%2BCollegebrief%2Baan%2Bde%2Braad%2Bover%2B'uitvoering%2Btoezeggingen%2Bvanuit%2Bportefeuille%2Bwethouder%2BStrijk'?connection_type=17&amp;connection_id=11560868\">7876051_2_5_1_ Collegebrief aan de raad over 'uitvoering toezeggingen vanuit portefeuille wethouder Strijk'</a></strong></p>",
+            "@attributes": {
+              "id": 41,
+              "datatype": "text",
+              "order": 14,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Datum afgedaan",
+            "value": "2025-02-18 00:00:00",
+            "@attributes": {
+              "id": 17,
+              "datatype": "datetime",
+              "order": 15,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Ingediend in",
+            "values": {
+              "value": [
+                {
+                  "@cdata": "OV concessie (Agenderingsverzoek 50PLUS, SP, LPF, Volt, FvD en VVD) (Voorbereiding / Meningsvorming  07-01-2025 17:00)",
+                  "@attributes": {
+                    "id": 8983939,
+                    "reference_model": "agenda_item"
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 54,
+              "datatype": "varchar",
+              "order": 20,
+              "multiple": 1,
+              "visible": "detail"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1008339,
+        "creation_date": null,
+        "last_modified": "2025-01-09 15:23:18",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 6
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Datum vergadering",
+            "value": "2025-01-07 00:00:00",
+            "@attributes": {
+              "id": 15,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Uitbreiding lijnennet - OV concessie (Agenderingsverzoek 50PLUS, SP, LPF, Volt, FvD en VVD)",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Tekst toezegging",
+            "value": "<p>Wethouder Strijk zegt toe dat er bij punt 1 belangrijke maatschappelijke locaties bij uitbreiding lijnennet wordt toegevoegd</p>",
+            "@attributes": {
+              "id": 61,
+              "datatype": "text",
+              "order": 4,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Dictum aangenomen motie",
+            "value": "<p>Conform de verzamelbrief: <em>Uitvoering toezeggingen vanuit portefeuille wethouder Strijk</em>, van 18 februari 2025.&nbsp; (nr. 4) <strong>VOORSTEL COLLEGE AFVOEREN.</strong></p>\n<p><strong><a href=\"/document/15173357/2/7876051_2_5_1_%2BCollegebrief%2Baan%2Bde%2Braad%2Bover%2B'uitvoering%2Btoezeggingen%2Bvanuit%2Bportefeuille%2Bwethouder%2BStrijk'?connection_type=17&amp;connection_id=11560868\">7876051_2_5_1_ Collegebrief aan de raad over 'uitvoering toezeggingen vanuit portefeuille wethouder Strijk'</a></strong></p>",
+            "@attributes": {
+              "id": 35,
+              "datatype": "text",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Toezegging",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 7,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Portefeuillehouder",
+            "values": {
+              "value": [
+                {
+                  "@cdata": "R. Strijk (Wethouder)",
+                  "@attributes": {
+                    "id": 248564,
+                    "reference_model": "role"
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 23,
+              "datatype": "varchar",
+              "order": 10,
+              "multiple": 1,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum afgedaan",
+            "value": "2025-02-18 00:00:00",
+            "@attributes": {
+              "id": 17,
+              "datatype": "datetime",
+              "order": 15,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Ingediend in",
+            "values": {
+              "value": [
+                {
+                  "@cdata": "OV concessie (Agenderingsverzoek 50PLUS, SP, LPF, Volt, FvD en VVD) (Voorbereiding / Meningsvorming  07-01-2025 17:00)",
+                  "@attributes": {
+                    "id": 8983939,
+                    "reference_model": "agenda_item"
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 54,
+              "datatype": "varchar",
+              "order": 20,
+              "multiple": 1,
+              "visible": "detail"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1008337,
+        "creation_date": null,
+        "last_modified": "2025-01-09 15:20:38",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 6
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Datum vergadering",
+            "value": "2025-01-07 00:00:00",
+            "@attributes": {
+              "id": 15,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Position paper - OV concessie (Agenderingsverzoek 50PLUS, SP, LPF, Volt, FvD en VVD)",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Tekst toezegging",
+            "value": "<p>Wethouder Strijk zegt toe dat er een verwijzing naar VN verdrag wordt opgenomen in het position paper</p>",
+            "@attributes": {
+              "id": 61,
+              "datatype": "text",
+              "order": 4,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Toezegging",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 7,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Portefeuillehouder",
+            "values": {
+              "value": [
+                {
+                  "@cdata": "R. Strijk (Wethouder)",
+                  "@attributes": {
+                    "id": 248564,
+                    "reference_model": "role"
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 23,
+              "datatype": "varchar",
+              "order": 10,
+              "multiple": 1,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Verwachte datum afdoening",
+            "value": "2025-01-17 00:00:00",
+            "@attributes": {
+              "id": 28,
+              "datatype": "datetime",
+              "order": 12,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Stand van zaken",
+            "value": "<p>Conform de verzamelbrief: <em>Uitvoering toezeggingen vanuit portefeuille wethouder Strijk</em>, van 18 februari 2025.&nbsp; (nr. 1) <strong>VOORSTEL COLLEGE AFVOEREN.</strong></p>\n<p><strong><a href=\"/document/15173357/2/7876051_2_5_1_%2BCollegebrief%2Baan%2Bde%2Braad%2Bover%2B'uitvoering%2Btoezeggingen%2Bvanuit%2Bportefeuille%2Bwethouder%2BStrijk'?connection_type=17&amp;connection_id=11560868\">7876051_2_5_1_ Collegebrief aan de raad over 'uitvoering toezeggingen vanuit portefeuille wethouder Strijk'</a></strong></p>",
+            "@attributes": {
+              "id": 41,
+              "datatype": "text",
+              "order": 14,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Datum afgedaan",
+            "value": "2025-02-18 00:00:00",
+            "@attributes": {
+              "id": 17,
+              "datatype": "datetime",
+              "order": 15,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Ingediend in",
+            "values": {
+              "value": [
+                {
+                  "@cdata": "OV concessie (Agenderingsverzoek 50PLUS, SP, LPF, Volt, FvD en VVD) (Voorbereiding / Meningsvorming  07-01-2025 17:00)",
+                  "@attributes": {
+                    "id": 8983939,
+                    "reference_model": "agenda_item"
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 54,
+              "datatype": "varchar",
+              "order": 20,
+              "multiple": 1,
+              "visible": "detail"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1008331,
+        "creation_date": null,
+        "last_modified": "2025-01-09 15:17:51",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 6
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Datum vergadering",
+            "value": "2025-01-07 00:00:00",
+            "@attributes": {
+              "id": 15,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Mogelijkheden om compensatie van woonprogramma - Rekenkamerrapport - Woningbouw in Eindhoven: lerend tot versnelling komen",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Tekst toezegging",
+            "value": "<p>Wethouder Verhees zegt toe&nbsp;de raad te informeren over mogelijkheden om compensatie van woonprogramma plaats te laten vinden tussen gebiedskaders, en hoe dit opgenomen kan worden in de gebiedskaders.</p>",
+            "@attributes": {
+              "id": 61,
+              "datatype": "text",
+              "order": 4,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Toezegging",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 7,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Portefeuillehouder",
+            "values": {
+              "value": [
+                {
+                  "@cdata": "M. Verhees (Wethouder)",
+                  "@attributes": {
+                    "id": 230023,
+                    "reference_model": "role"
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 23,
+              "datatype": "varchar",
+              "order": 10,
+              "multiple": 1,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Stand van zaken",
+            "value": "<p>Op 29 januari heeft u hierover de collegebrief \"Toezeggingen wethouder Verhees mbt gebiedskaders\" ontvangen, zie &nbsp;https://eindhoven.notubiz.nl/modules/8/Raadsinformatiebrieven/1013512.&nbsp;<strong>Voorstel college; Afvoeren</strong></p>",
+            "@attributes": {
+              "id": 41,
+              "datatype": "text",
+              "order": 14,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Datum afgedaan",
+            "value": "2025-02-18 00:00:00",
+            "@attributes": {
+              "id": 17,
+              "datatype": "datetime",
+              "order": 15,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Ingediend in",
+            "values": {
+              "value": [
+                {
+                  "@cdata": "Rekenkamerrapport - Woningbouw in Eindhoven lerend tot versnelling komen (Voorbereiding / Meningsvorming  07-01-2025 17:00)",
+                  "@attributes": {
+                    "id": 8902927,
+                    "reference_model": "agenda_item"
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 54,
+              "datatype": "varchar",
+              "order": 20,
+              "multiple": 1,
+              "visible": "detail"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1008319,
+        "creation_date": null,
+        "last_modified": "2025-01-09 15:12:11",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 6
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Datum vergadering",
+            "value": "2025-01-07 00:00:00",
+            "@attributes": {
+              "id": 15,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Uniforme gebiedskaders - Rekenkamerrapport - Woningbouw in Eindhoven: lerend tot versnelling komen",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Tekst toezegging",
+            "value": "<p>Wethouder Verhees zegt toe na te denken over mogelijkheden voor uniforme gebiedskaders en de raad te informeren over hoe ze hierop terugkomt</p>",
+            "@attributes": {
+              "id": 61,
+              "datatype": "text",
+              "order": 4,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Toezegging",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 7,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Portefeuillehouder",
+            "values": {
+              "value": [
+                {
+                  "@cdata": "M. Verhees (Wethouder)",
+                  "@attributes": {
+                    "id": 230023,
+                    "reference_model": "role"
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 23,
+              "datatype": "varchar",
+              "order": 10,
+              "multiple": 1,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Stand van zaken",
+            "value": "<p>Op 29 januari heeft u hierover de collegebrief \"Toezeggingen wethouder Verhees mbt gebiedskaders\" ontvangen, zie &nbsp;https://eindhoven.notubiz.nl/modules/8/Raadsinformatiebrieven/1013512. <strong>Voorstel college; Afvoeren</strong></p>",
+            "@attributes": {
+              "id": 41,
+              "datatype": "text",
+              "order": 14,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Datum afgedaan",
+            "value": "2025-02-18 00:00:00",
+            "@attributes": {
+              "id": 17,
+              "datatype": "datetime",
+              "order": 15,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Termijn afdoening",
+            "value": "Q1 2025",
+            "@attributes": {
+              "id": 27,
+              "datatype": "varchar",
+              "order": 16,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Ingediend in",
+            "values": {
+              "value": [
+                {
+                  "@cdata": "Rekenkamerrapport - Woningbouw in Eindhoven lerend tot versnelling komen (Voorbereiding / Meningsvorming  07-01-2025 17:00)",
+                  "@attributes": {
+                    "id": 8902927,
+                    "reference_model": "agenda_item"
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 54,
+              "datatype": "varchar",
+              "order": 20,
+              "multiple": 1,
+              "visible": "detail"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1008309,
+        "creation_date": null,
+        "last_modified": "2025-01-09 15:07:45",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 6
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { mapAssemblyResponse } from '../src/serializers'
+import { mapAssemblyResponse } from '../../../src/serializers'
 import assemblyFixture from './data/assembly.json'
 
 describe('assembly serializer', () => {

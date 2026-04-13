@@ -6,10 +6,10 @@ import {
   mapMeetingResponse,
   mapSpeakersResponse,
 } from '../src/serializers'
-import assemblyFixture from './data/assembly.json'
-import eventsFixture from './data/events.json'
-import meetingFixture from './data/meeting.json'
-import speakersFixture from './data/speakers.json'
+import assemblyFixture from './clients/assemblies/data/assembly.json'
+import eventsFixture from './clients/events/data/events.json'
+import meetingFixture from './clients/meetings/data/meeting.json'
+import speakersFixture from './clients/speakers/data/speakers.json'
 
 describe('serializers', () => {
   it('maps paginated events into typed domain objects', () => {

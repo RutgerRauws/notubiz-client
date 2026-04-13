@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { mapMeetingResponse } from '../src/serializers'
+import { mapMeetingResponse } from '../../../src/serializers'
 import meetingFixture from './data/meeting.json'
 
 describe('meeting serializer', () => {

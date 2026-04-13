@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { mapSpeakersResponse } from '../src/serializers'
+import { mapSpeakersResponse } from '../../../src/serializers'
 import speakersFixture from './data/speakers.json'
 
 describe('speakers serializer', () => {

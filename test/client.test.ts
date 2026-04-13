@@ -2,10 +2,10 @@ import { describe, expect, it, vi } from 'vitest'
 
 import { NotubizApiError } from '../src/errors'
 import { NotubizClient } from '../src/notubiz-client'
-import assemblyFixture from './data/assembly.json'
-import eventsFixture from './data/events.json'
-import meetingFixture from './data/meeting.json'
-import speakersFixture from './data/speakers.json'
+import assemblyFixture from './clients/assemblies/data/assembly.json'
+import eventsFixture from './clients/events/data/events.json'
+import meetingFixture from './clients/meetings/data/meeting.json'
+import speakersFixture from './clients/speakers/data/speakers.json'
 
 function createJsonResponse(payload: unknown, status = 200): Response {
   return new Response(JSON.stringify(payload), {

@@ -1,7 +1,7 @@
-import { AssembliesClient } from './clients/assemblies'
-import { EventsClient } from './clients/events'
-import { MeetingsClient } from './clients/meetings'
-import { SpeakersClient } from './clients/speakers'
+import { AssembliesClient } from './clients/assemblies/client'
+import { EventsClient } from './clients/events/client'
+import { MeetingsClient } from './clients/meetings/client'
+import { SpeakersClient } from './clients/speakers/client'
 import {
   type NotubizClientOptions,
   type ResolvedNotubizClientOptions,

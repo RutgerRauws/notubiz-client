@@ -1,6 +1,6 @@
-import { type RequestOptions, HttpClient } from '../http'
-import { type Assembly } from '../models'
-import { mapAssemblyResponse } from '../serializers'
+import { type RequestOptions, HttpClient } from '../../http'
+import { type Assembly } from './model'
+import { mapAssemblyResponse } from './serializer'
 
 export class AssembliesClient {
   public constructor(private readonly httpClient: HttpClient) {}

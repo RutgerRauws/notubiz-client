@@ -1,6 +1,6 @@
-import { type RequestOptions, HttpClient } from '../http'
-import { type Meeting } from '../models'
-import { mapMeetingResponse } from '../serializers'
+import { type RequestOptions, HttpClient } from '../../http'
+import { type Meeting } from './model'
+import { mapMeetingResponse } from './serializer'
 
 export class MeetingsClient {
   public constructor(private readonly httpClient: HttpClient) {}

@@ -1,12 +1,13 @@
-import { type Module, ModulesCollection } from './model'
+import { ModuleOverviewItem, ModulesOverview } from './models/modules-overview'
 import {
   getString,
   requireNumber,
   requireRecord,
   toRecordArray,
 } from '../../utils/utils'
+import { ModuleDetails } from './models/module-details'
 
-export function mapModule(input: unknown): Module {
+function mapModuleOverviewItem(input: unknown): ModuleOverviewItem {
   const module = requireRecord(input, 'module')
   const attributes = requireRecord(module['@attributes'], 'module.@attributes')
 
@@ -17,12 +18,18 @@ export function mapModule(input: unknown): Module {
   }
 }
 
-export function mapModulesResponse(input: unknown): ModulesCollection {
+export function mapModulesResponse(input: unknown): ModulesOverview {
   const response = requireRecord(input, 'modules response')
   const modulesRoot = requireRecord(
     response.modules,
     'modules response.modules'
   )
 
-  return new ModulesCollection(toRecordArray(modulesRoot.module).map(mapModule))
+  return new ModulesOverview(
+    toRecordArray(modulesRoot.module).map(mapModuleOverviewItem)
+  )
+}
+
+export function mapModuleResponse(input: unknown): ModuleDetails {
+  //TODO
 }

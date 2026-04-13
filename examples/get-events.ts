@@ -1,5 +1,5 @@
 import { createClient } from './client'
-import { formatDate } from './helpers'
+import { formatDate } from '../src/utils/utils'
 
 async function main(): Promise<void> {
   const client = createClient()

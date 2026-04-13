@@ -1,4 +1,4 @@
-import { normalizeBaseUrl } from './utils'
+import { normalizeBaseUrl } from './utils/utils'
 
 export const DEFAULT_NOTUBIZ_BASE_URL = 'https://api.notubiz.nl/'
 export const DEFAULT_NOTUBIZ_API_VERSION = '1.10.8'

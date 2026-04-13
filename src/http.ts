@@ -1,6 +1,6 @@
 import { type ResolvedNotubizClientOptions } from './configuration'
 import { NotubizApiError } from './errors'
-import { formatNotubizDate } from './utils'
+import { formatNotubizDate } from './utils/utils'
 
 export interface RequestOptions {
   signal?: AbortSignal

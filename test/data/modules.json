@@ -1,0 +1,139 @@
+{
+  "modules": {
+    "module": [
+      {
+        "custom_name": "",
+        "name": "Ingekomen stukken",
+        "@attributes": {
+          "id": 1
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Raadsadressen",
+        "@attributes": {
+          "id": 2
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Toezeggingen",
+        "@attributes": {
+          "id": 3
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Schriftelijke vragen",
+        "@attributes": {
+          "id": 4
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Collegeberichten",
+        "@attributes": {
+          "id": 5
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Moties",
+        "@attributes": {
+          "id": 6
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Publieke documenten",
+        "@attributes": {
+          "id": 7
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Bestuursdocumenten",
+        "@attributes": {
+          "id": 8
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Beleidsdocumenten",
+        "@attributes": {
+          "id": 9
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Formats",
+        "@attributes": {
+          "id": 10
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Verordeningen",
+        "@attributes": {
+          "id": 11
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Besluitenlijsten",
+        "@attributes": {
+          "id": 12
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Commissiearchief",
+        "@attributes": {
+          "id": 13
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Te agenderen agendapunten",
+        "@attributes": {
+          "id": 14
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Nieuwsberichten",
+        "@attributes": {
+          "id": 15
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Technische vragen",
+        "@attributes": {
+          "id": 17
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Collegevoorstellen",
+        "@attributes": {
+          "id": 18
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Raadsvoorstellen",
+        "@attributes": {
+          "id": 19
+        }
+      },
+      {
+        "custom_name": "",
+        "name": "Burgerbrieven",
+        "@attributes": {
+          "id": 20
+        }
+      }
+    ]
+  }
+}

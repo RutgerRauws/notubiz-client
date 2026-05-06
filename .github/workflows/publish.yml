@@ -6,8 +6,8 @@ on:
       - main
 
 permissions:
-  id-token: write  # Required for OIDC
-  contents: read
+  id-token: write # Required for OIDC
+  contents: write # Required to push tags
 
 jobs:
   publish:
@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-        
+
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
@@ -24,8 +24,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
-        run: npm 
-        
+        run: npm ci
+
       - name: Build
         run: npm run build
 
@@ -38,10 +38,10 @@ jobs:
           git config user.email "actions@github.com"
 
       - name: Bump patch version
-        run: npm version patch -m "chore: release %s [skip ci]"
+        run: npm version patch -m "Bump version to %s [skip ci]"
 
       - name: Publish to npm
-        run: npm publish
+        run: npm publish --provenance
 
       - name: Push version tag
         run: git push --follow-tags

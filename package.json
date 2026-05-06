@@ -35,8 +35,12 @@
     "council",
     "meetings"
   ],
-  "author": "",
+  "author": "Rutger Rauws",
   "license": "LGPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RutgerRauws/notubiz-client.git"
+  },
   "devDependencies": {
     "@types/node": "^20.12.7",
     "@typescript-eslint/eslint-plugin": "^5.39.0",

@@ -1,0 +1,5369 @@
+{
+  "pagination": {
+    "@attributes": {
+      "list_start": 0,
+      "list_end": 48,
+      "total_results": 48
+    }
+  },
+  "item": [
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098442_1.3.1.",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-04 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Voortgang optimaliseren Ondernemers Dienstverlening en het traject \n‘Snappen of Schrappen’\n",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Voortgang optimaliseren Ondernemers Dienstverlening",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16668793/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16668793,
+                "version": 1,
+                "last_modified": "2026-03-04 11:04:16",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 -Flyer Regeldruk verlagen door Snappen of Schrappen",
+            "url": "https://api.notubiz.nl/document/16668794/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16668794,
+              "last_modified": "2026-03-04 11:04:16",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 2 - Totaaloverzicht uitkomsten onderzochte regels voor ondernemers",
+            "url": "https://api.notubiz.nl/document/16668795/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16668795,
+              "last_modified": "2026-03-04 11:04:16",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1139066,
+        "creation_date": null,
+        "last_modified": "2026-03-04 11:04:16",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098442_1.4.1. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-04 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Informeren over extra impuls voor leefbare wijken",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Informeren over extra impuls voor leefbare wijken",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16668827/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16668827,
+                "version": 1,
+                "last_modified": "2026-03-04 11:03:56",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1139068,
+        "creation_date": null,
+        "last_modified": "2026-03-04 11:03:56",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098442_1.5.2.",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-04 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Parkeren voor gehandicapten in Eindhoven",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Parkeren voor gehandicapten in Eindhoven",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16668911/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16668911,
+                "version": 1,
+                "last_modified": "2026-03-04 11:03:29",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1139081,
+        "creation_date": null,
+        "last_modified": "2026-03-04 11:03:29",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098442_1.7.1.",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-04 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief informeren Raad over de door het college vastgestelde begrotingswijzigingen \n2025 in de periode juli tot en met december 2025\n",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief informeren raad vaststelde bgw 2025 juli tot en met december 2025",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16668995/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16668995,
+                "version": 1,
+                "last_modified": "2026-03-04 11:01:00",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Overzicht bgw'n door college vastgesteld in juli-dec.-2025",
+            "url": "https://api.notubiz.nl/document/16668999/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16668999,
+              "last_modified": "2026-03-04 11:01:00",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1139086,
+        "creation_date": null,
+        "last_modified": "2026-03-04 11:01:00",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098442_1.7.2. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-04 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Uitvoeringsplan Sport",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Uitvoeringsplan Sport",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16669022/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16669022,
+                "version": 1,
+                "last_modified": "2026-03-04 11:00:53",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Uitvoeringsplan Sport 2026 ",
+            "url": "https://api.notubiz.nl/document/16669023/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16669023,
+              "last_modified": "2026-03-04 11:00:53",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1139088,
+        "creation_date": null,
+        "last_modified": "2026-03-04 11:00:53",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8131752_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-04 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Aankoop grond realisering natuur Bod B5",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Aankoop grond t.b.v. natuurontwikkeling Bod B5",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16669294/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16669294,
+                "version": 1,
+                "last_modified": "2026-03-04 11:50:58",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1139110,
+        "creation_date": null,
+        "last_modified": "2026-03-04 11:50:58",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8131724_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-04 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Energietransitie: participatiestrategie eerste fase uitvoeringsplannen Warmteprogramma",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Energietransitie - participatiestrategie Warmteprogramma",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16669319/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16669319,
+                "version": 1,
+                "last_modified": "2026-03-04 11:51:06",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Energietransitie - participatiestrategie eerste fase uitvoeringsplannen Warmteprogramma",
+            "url": "https://api.notubiz.nl/document/16669320/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16669320,
+              "last_modified": "2026-03-04 11:51:05",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 2 -Voorbeeld participatieplan collectieve warmtevoorziening (Groots Gestel)",
+            "url": "https://api.notubiz.nl/document/16669321/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16669321,
+              "last_modified": "2026-03-04 11:51:05",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 3 - Voorbeeld participatieplan individuele warmtevoorziening (Blixembosch-West)",
+            "url": "https://api.notubiz.nl/document/16669322/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16669322,
+              "last_modified": "2026-03-04 11:51:05",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1139113,
+        "creation_date": null,
+        "last_modified": "2026-03-04 11:51:06",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8131740_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-04 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Energietransitie: subsidies isolatie en ventilatie - wijzigingen maart 2026\n",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Subsidies isolatie en ventilatie wijzigingen maart 2026",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16669332/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16669332,
+                "version": 1,
+                "last_modified": "2026-03-04 11:51:12",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Was-wordt tabel Subsidieregeling isolatie en ventilatie vereniging van eigenaren Eindhoven",
+            "url": "https://api.notubiz.nl/document/16669333/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16669333,
+              "last_modified": "2026-03-04 11:51:12",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 2 - Was-wordt tabel Subsidieregeling isolatie en ventilatie eigenaar-bewoners Eindhoven",
+            "url": "https://api.notubiz.nl/document/16669334/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16669334,
+              "last_modified": "2026-03-04 11:51:12",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1139114,
+        "creation_date": null,
+        "last_modified": "2026-03-04 11:51:12",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8131745_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-04 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Participatieplan drie gebiedskaders in Woensel-Zuid",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Participatieplan gebiedskaders Woensel Zuid",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16669348/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16669348,
+                "version": 1,
+                "last_modified": "2026-03-04 11:51:19",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Participatieplan gebiedskaders Woensel Zuid",
+            "url": "https://api.notubiz.nl/document/16669349/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16669349,
+              "last_modified": "2026-03-04 11:51:19",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1139117,
+        "creation_date": null,
+        "last_modified": "2026-03-04 11:51:19",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8131747_03",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-05 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Vaststelling gebiedskader Kanaalzone Zuid",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Vaststelling gebiedskader Kanaalzone-Zuid",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16675702/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16675702,
+                "version": 1,
+                "last_modified": "2026-03-05 15:41:10",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1139738,
+        "creation_date": null,
+        "last_modified": "2026-03-05 15:41:10",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098442_1.5.3. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-05 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Concessie deeltweewielers gaat van start",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Concessie deeltweewielers gaat van start",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16677104/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16677104,
+                "version": 1,
+                "last_modified": "2026-03-05 17:01:34",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1139858,
+        "creation_date": null,
+        "last_modified": "2026-03-05 17:01:34",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098442_1.5.1. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-05 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Terugkoppeling ALV Brainport voor Elkaar",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Terugkoppeling ALV Brainport voor Elkaar",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16678627/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16678627,
+                "version": 1,
+                "last_modified": "2026-03-05 15:45:14",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Notulen ALV 28 januari 2026",
+            "url": "https://api.notubiz.nl/document/16678628/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16678628,
+              "last_modified": "2026-03-05 15:45:14",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 2 - Jaarplan 2026 Brainport voor Elkaar",
+            "url": "https://api.notubiz.nl/document/16678629/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16678629,
+              "last_modified": "2026-03-05 15:45:14",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 3 - Collegebrief met inbreng aan de ALV BvE",
+            "url": "https://api.notubiz.nl/document/16678630/2",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16678630,
+              "last_modified": "2026-03-05 15:45:14",
+              "version": 2,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1139975,
+        "creation_date": null,
+        "last_modified": "2026-03-05 15:45:14",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8131748_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-05 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Voorkeursscenario Broedplaatsgebouwen Sectie C",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Voorkeursscenario Broedplaatsgebouwen Sectie-C",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16680665/2",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16680665,
+                "version": 2,
+                "last_modified": "2026-03-05 17:05:59",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1140187,
+        "creation_date": null,
+        "last_modified": "2026-03-05 17:05:59",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8136129_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-06 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief (grond)aankopen BIC Noord",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief (grond)aankopen BIC Noord",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16686403/3",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16686403,
+                "version": 3,
+                "last_modified": "2026-03-13 10:25:15",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Vergadering",
+            "values": {
+              "value": [
+                {
+                  "@cdata": "Raadsvoorstel Onteigeningsbeschikking Brainport Industries Campus Noord (Raadsvergadering 10-03-2026 19:00)",
+                  "@attributes": {
+                    "id": 10049549,
+                    "reference_model": "agenda_item"
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 54,
+              "datatype": "varchar",
+              "order": 13,
+              "multiple": 1,
+              "visible": "detail"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1140607,
+        "creation_date": null,
+        "last_modified": "2026-03-13 10:25:15",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8136311_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-12 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Variantenstudie ir. Ottenbad",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Variantenstudie ir. Ottenbad",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16694709/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16694709,
+                "version": 1,
+                "last_modified": "2026-03-12 10:30:22",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Uitgangspuntennotitie variantenstudie ir. Ottenbad",
+            "url": "https://api.notubiz.nl/document/16694710/2",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16694710,
+              "last_modified": "2026-03-12 10:30:22",
+              "version": 2,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 2 - Afwegingsmatrix ir. Ottenbad",
+            "url": "https://api.notubiz.nl/document/16694711/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16694711,
+              "last_modified": "2026-03-12 10:30:22",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1141276,
+        "creation_date": null,
+        "last_modified": "2026-03-12 10:30:22",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8136156_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-11 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Intentieovereenkomst aankoop Muziekgebouw Eindhoven",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Intentieovereenkomst aankoop Muziekgebouw",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16694719/2",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16694719,
+                "version": 2,
+                "last_modified": "2026-03-16 09:28:24",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1141277,
+        "creation_date": null,
+        "last_modified": "2026-03-16 09:28:24",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098443_2.2.1. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-11 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Buitenplaats Welschap",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Buitenplaats Welschap",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16698602/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16698602,
+                "version": 1,
+                "last_modified": "2026-03-11 12:00:42",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Praatplaat Buitenplaats Welschap",
+            "url": "https://api.notubiz.nl/document/16698603/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16698603,
+              "last_modified": "2026-03-11 12:00:44",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1141628,
+        "creation_date": null,
+        "last_modified": "2026-03-11 12:00:44",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098443_2.2.2.",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-11 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Actualisatie uitvoeringsprogramma Landgoed de Wielewaal",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Actualisatie uitvoeringsprogramma Landgoed de Wielewaal",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16698574/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16698574,
+                "version": 1,
+                "last_modified": "2026-03-11 12:00:13",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1141629,
+        "creation_date": null,
+        "last_modified": "2026-03-11 12:00:13",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098443_2.5.2. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-11 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief verkeersveiligheid Marathonloop kruising Vijfkamplaan ",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief verkeersveiligheid Marathonloop kruising Vijfkamplaan ",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16698859/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16698859,
+                "version": 1,
+                "last_modified": "2026-03-11 12:08:37",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Tekening maatregelen verkeersveiligheid Marathonloop - Vijfkamplaan",
+            "url": "https://api.notubiz.nl/document/16698852/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16698852,
+              "last_modified": "2026-03-11 12:08:36",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1141636,
+        "creation_date": null,
+        "last_modified": "2026-03-11 12:08:37",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098443_2.6.1. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-11 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief monitor sociale basis",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief monitor sociale basis",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16698878/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16698878,
+                "version": 1,
+                "last_modified": "2026-03-11 12:09:43",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1141637,
+        "creation_date": null,
+        "last_modified": "2026-03-11 12:09:43",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098443_2.7.1. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-11 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Eindrapport Inkleuring strategische positionering SGE",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Eindrapport Inkleuring strategische positionering SGE",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16698887/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16698887,
+                "version": 1,
+                "last_modified": "2026-03-11 12:10:59",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Eindrapport inkleuring strategische positionering SGE",
+            "url": "https://api.notubiz.nl/document/16698889/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16698889,
+              "last_modified": "2026-03-11 12:11:00",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1141640,
+        "creation_date": null,
+        "last_modified": "2026-03-11 12:11:00",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098443_2.8.1. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-11 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Doorontwikkeling Jeugdbeleid Eindhoven 20260305",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Doorontwikkeling Jeugdbeleid Eindhoven 20260305",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16698903/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16698903,
+                "version": 1,
+                "last_modified": "2026-03-11 12:13:12",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1141642,
+        "creation_date": null,
+        "last_modified": "2026-03-11 12:13:12",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8138491_2.2.3. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-11 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Evaluatie functie stadsgezant",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Evaluatie functie stadsgezant",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16698907/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16698907,
+                "version": 1,
+                "last_modified": "2026-03-12 08:54:35",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Rapportage Stadsgezanten",
+            "url": "https://api.notubiz.nl/document/16698908/2",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16698908,
+              "last_modified": "2026-03-12 08:54:35",
+              "version": 2,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1141644,
+        "creation_date": null,
+        "last_modified": "2026-03-12 08:54:35",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098442_1.4.2. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-12 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Intentieverklaring Samenwerking realisatie studentenhuisvesting Eindhoven",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Intentieverklaring Samenwerking realisatie studentenhuisvesting Eindhoven",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16706530/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16706530,
+                "version": 1,
+                "last_modified": "2026-03-12 16:30:29",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1142660,
+        "creation_date": null,
+        "last_modified": "2026-03-12 16:30:29",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8136263_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-12 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Actieplan Studentenhuisvesting",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Actieplan Studentenhuisvesting",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16707144/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16707144,
+                "version": 1,
+                "last_modified": "2026-03-12 16:30:36",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1142714,
+        "creation_date": null,
+        "last_modified": "2026-03-12 16:30:36",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8136166_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-13 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Vaststelling Schetsontwerp Markt als onderdeel van Fase 4 van project Herinrichting Binnenstad",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Vaststellen SO Markt Fase 4 HB",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16709364/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16709364,
+                "version": 1,
+                "last_modified": "2026-03-13 13:32:25",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Schetsontwerp Markt",
+            "url": "https://api.notubiz.nl/document/16709366/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16709366,
+              "last_modified": "2026-03-13 13:32:24",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 2 - Participatieplan",
+            "url": "https://api.notubiz.nl/document/16709367/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16709367,
+              "last_modified": "2026-03-13 13:32:24",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 3 - Participatieverslag",
+            "url": "https://api.notubiz.nl/document/16709372/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16709372,
+              "last_modified": "2026-03-13 13:32:24",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 4 - Overzichtstekening plangebied Fase 4",
+            "url": "https://api.notubiz.nl/document/16709373/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16709373,
+              "last_modified": "2026-03-13 13:32:24",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1142890,
+        "creation_date": null,
+        "last_modified": "2026-03-13 13:32:25",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8136291_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-13 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Regionale Mobiliteitspakketten: Korte Termijn Maatregelenpakket 2 (KTM2) mobiliteit Beethovenconvenant en Maatregelenpakket A67",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief KTM2 mobiliteit Beethovenconvenant ",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16710458/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16710458,
+                "version": 1,
+                "last_modified": "2026-03-13 08:49:05",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1142895,
+        "creation_date": null,
+        "last_modified": "2026-03-13 08:49:05",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098444_3.7.1.",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-13 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Eindhoven, zwemstad van Europa",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Eindhoven, zwemstad van Europa",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16711159/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16711159,
+                "version": 1,
+                "last_modified": "2026-03-13 10:02:39",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Ambitie Eindhoven, zwemstad van Europa",
+            "url": "https://api.notubiz.nl/document/16711182/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16711182,
+              "last_modified": "2026-03-13 10:02:39",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1142978,
+        "creation_date": null,
+        "last_modified": "2026-03-13 10:02:39",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8136290_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-14 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief DAEB aanwijsbesluit Stichting Groendomein Wasven",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief DAEB-aanwijsbesluit Stichting Groendomein Wasven",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16714650/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16714650,
+                "version": 1,
+                "last_modified": "2026-03-14 09:31:13",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1- Overzichtskaart Groendomein Wasven",
+            "url": "https://api.notubiz.nl/document/16714651/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16714651,
+              "last_modified": "2026-03-14 09:31:13",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1143239,
+        "creation_date": null,
+        "last_modified": "2026-03-14 09:31:13",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098444_2.6.1. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-17 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Nieuwe locatie voor het Stroomhuis",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Nieuwe locatie voor het Stroomhuis",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16722711/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16722711,
+                "version": 1,
+                "last_modified": "2026-03-17 15:14:23",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1144068,
+        "creation_date": null,
+        "last_modified": "2026-03-17 15:14:23",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098444_2.7.1.",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-18 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Monitoring financial governance afspraken PSV 2024 2025",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief  Monitoring financial governance afspraken PSV 2024-2025",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16724763/2",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16724763,
+                "version": 2,
+                "last_modified": "2026-03-18 10:40:07",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1144307,
+        "creation_date": null,
+        "last_modified": "2026-03-18 10:40:07",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098444_2.8.1.",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-18 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Toezichtoordeel taakstelling 2025 II",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Toezichtoordeel taakstelling 2025-II",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16724890/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16724890,
+                "version": 1,
+                "last_modified": "2026-03-18 10:49:13",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Toezichtsoordeel Taakstelling 2025-II",
+            "url": "https://api.notubiz.nl/document/16724896/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16724896,
+              "last_modified": "2026-03-18 10:49:13",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1144318,
+        "creation_date": null,
+        "last_modified": "2026-03-18 10:49:13",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8140491_03",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-18 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Actualiseren subsidie bijdragen woonwagenwoningen",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Actualiseren subsidie bijdragen woonwagenwoningen",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16724982/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16724982,
+                "version": 1,
+                "last_modified": "2026-03-18 11:03:39",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1144336,
+        "creation_date": null,
+        "last_modified": "2026-03-18 11:03:39",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8131753_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-19 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Voorkeursvariant Uitbreiding Philips Stadion",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Voorkeursvariant Uitbreiding Philips Stadion",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16726834/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16726834,
+                "version": 1,
+                "last_modified": "2026-03-19 18:00:07",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1144514,
+        "creation_date": null,
+        "last_modified": "2026-03-19 18:00:07",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8124345_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-20 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Bestuurlijk overdrachtsdocument 2026",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Bestuurlijk overdrachtsdocument 2026",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16739481/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16739481,
+                "version": 1,
+                "last_modified": "2026-03-20 12:03:43",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Vergadering",
+            "values": {
+              "value": [
+                {
+                  "@cdata": "Reacties voorlopig verkozen partijen op de verkiezingsuitslag (Duidingsdebat 24-03-2026 20:00)",
+                  "@attributes": {
+                    "id": 10122480,
+                    "reference_model": "agenda_item"
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 54,
+              "datatype": "varchar",
+              "order": 13,
+              "multiple": 1,
+              "visible": "detail"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Overdrachtsdocument 2026",
+            "url": "https://api.notubiz.nl/document/16739482/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16739482,
+              "last_modified": "2026-03-20 15:16:58",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1145339,
+        "creation_date": null,
+        "last_modified": "2026-03-20 15:16:58",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8119800_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-23 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Tussentijdse evaluatie Verbonden Partijen (openbaar belang en governance)",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Tussentijdse evaluatie Verbonden Partijen",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16746143/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16746143,
+                "version": 1,
+                "last_modified": "2026-03-23 16:02:38",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1145711,
+        "creation_date": null,
+        "last_modified": "2026-03-23 16:02:38",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098446_2.3.1. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-25 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Vervolg Groene Gender Stationsweg",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Vervolg Groene Gender",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16754072/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16754072,
+                "version": 1,
+                "last_modified": "2026-03-25 12:16:28",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1146295,
+        "creation_date": null,
+        "last_modified": "2026-03-25 12:16:28",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098446_2.3.2.",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-25 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Aanbesteding Fietsenstalling Stationsplein zuid (update 2)",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Aanbesteding Fietsenstalling Stationsplein zuid (update 2) ",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16754076/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16754076,
+                "version": 1,
+                "last_modified": "2026-03-25 12:17:14",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1146296,
+        "creation_date": null,
+        "last_modified": "2026-03-25 12:17:14",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098446_2.4.1. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-25 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Stem van de woningzoekende",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Stem van de woningzoekende",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16754078/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16754078,
+                "version": 1,
+                "last_modified": "2026-03-25 12:17:34",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Notitie De Woonraad, de stem van de woningzoekende, een verkenning",
+            "url": "https://api.notubiz.nl/document/16754079/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16754079,
+              "last_modified": "2026-03-25 12:17:34",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1146297,
+        "creation_date": null,
+        "last_modified": "2026-03-25 12:17:34",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098446_2.5.1. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-25 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Evaluatie venstertijden Stratumseind en voortgang actieagenda ‘Sharing the Vibes: Samen naar een bruisend Eindhoven’",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Evaluatie venstertijden Stratumseind en voortgang actieagenda Sharing the Vibes",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16754098/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16754098,
+                "version": 1,
+                "last_modified": "2026-03-25 12:17:59",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Gemeente Eindhoven - Venstertijden",
+            "url": "https://api.notubiz.nl/document/16754099/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16754099,
+              "last_modified": "2026-03-25 12:17:59",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 2 - Gemeente Eindhoven - Nachtambassade",
+            "url": "https://api.notubiz.nl/document/16754100/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16754100,
+              "last_modified": "2026-03-25 12:17:59",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1146302,
+        "creation_date": null,
+        "last_modified": "2026-03-25 12:17:59",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098446_2.5.2. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-25 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Voortgang aanpak verkeersveiligheidsproblematiek Toledolaan (Taalbrug College en Mytylschool)",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Voortgang verkeersproblematiek Toledolaan (Mytylschool en Taalburg)",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16754120/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16754120,
+                "version": 1,
+                "last_modified": "2026-03-25 12:18:07",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1146306,
+        "creation_date": null,
+        "last_modified": "2026-03-25 12:18:07",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098446_2.5.3.",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-25 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Extra parkeerplaatsen KDC Heimdal Pluryn",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Extra parkeerplaatsen KDC Heimdal Pluryn",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16754139/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16754139,
+                "version": 1,
+                "last_modified": "2026-03-25 12:18:14",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1146310,
+        "creation_date": null,
+        "last_modified": "2026-03-25 12:18:14",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098446_2.8.1.",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-25 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Stand van zaken en koers voortzetting aanpak huiselijk geweld en femicide",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Stand van zaken en koers voortzetting aanpak huiselijk geweld en femicide",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16754148/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16754148,
+                "version": 1,
+                "last_modified": "2026-03-25 12:18:45",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1146313,
+        "creation_date": null,
+        "last_modified": "2026-03-25 12:18:45",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8098494_3b",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-25 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief openbaar maken opinieartikel Stichting Bouwdepot",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief openbaarmaken opinieartikel Bouwdepot",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16754227/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16754227,
+                "version": 1,
+                "last_modified": "2026-03-25 13:24:55",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Opinieartikel Stichting Bouwdepot",
+            "url": "https://api.notubiz.nl/document/16754228/3",
+            "types": {
+              "type": [
+                {
+                  "name": "-",
+                  "@attributes": {
+                    "id": 1222
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16754228,
+              "last_modified": "2026-03-25 13:24:54",
+              "version": 3,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1146319,
+        "creation_date": null,
+        "last_modified": "2026-03-25 13:24:55",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8141725_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-25 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Besluit aanwijzen Eindhovense alcoholverbodsgebieden 2026-2029",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Besluit aanwijzen Eindhovense alcoholverbodsgebieden 2026-2029",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16754234/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16754234,
+                "version": 1,
+                "last_modified": "2026-03-25 13:25:37",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1146320,
+        "creation_date": null,
+        "last_modified": "2026-03-25 13:25:37",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8145376_03 ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-25 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Voortgang Uitvoeringsprogramma Inclusief Samenleven 2025-2026",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Voortgang Uitvoeringsprogramma incl. Samenleven 2025-2026",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16754332/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16754332,
+                "version": 1,
+                "last_modified": "2026-03-25 13:26:07",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1146336,
+        "creation_date": null,
+        "last_modified": "2026-03-25 13:26:07",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8142385_2.8.2. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-26 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Onderzoeksrapport 'Discriminatie in Eindhoven'",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Onderzoeksrapport 'Discriminatie in Eindhoven'",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16757097/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16757097,
+                "version": 1,
+                "last_modified": "2026-03-26 18:00:22",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "attachments": {
+        "document": [
+          {
+            "filetype": "pdf",
+            "title": "Bijlage 1 - Onderzoeksrapport 'Discriminatie in Eindhoven'",
+            "url": "https://api.notubiz.nl/document/16757098/1",
+            "types": {
+              "type": [
+                {
+                  "name": "Bijlage",
+                  "@attributes": {
+                    "id": 14
+                  }
+                }
+              ]
+            },
+            "@attributes": {
+              "id": 16757098,
+              "last_modified": "2026-03-26 18:00:22",
+              "version": 1,
+              "publication_date": null,
+              "case_code": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1146676,
+        "creation_date": null,
+        "last_modified": "2026-03-26 18:00:22",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    },
+    {
+      "attributes": {
+        "attribute": [
+          {
+            "label": "Nummer",
+            "value": "8146970_2.5.4. ",
+            "@attributes": {
+              "id": 5,
+              "datatype": "varchar",
+              "order": 1,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Datum",
+            "value": "2026-03-26 00:00:00",
+            "@attributes": {
+              "id": 44,
+              "datatype": "datetime",
+              "order": 2,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Titel",
+            "value": "Raadsbrief Start werkzaamheden Limburglaan - kap 46 bomen",
+            "@attributes": {
+              "id": 1,
+              "datatype": "varchar",
+              "order": 3,
+              "multiple": 0,
+              "visible": "both"
+            }
+          },
+          {
+            "label": "Hoofddocument",
+            "value": {
+              "title": "Raadsbrief Start werkzaamheden Limburglaan - kap bomen",
+              "filetype": "pdf",
+              "url": "https://api.notubiz.nl/document/16763827/1",
+              "types": {
+                "type": [
+                  {
+                    "name": "Raadsbrief",
+                    "@attributes": {
+                      "id": 83
+                    }
+                  }
+                ]
+              },
+              "@attributes": {
+                "id": 16763827,
+                "version": 1,
+                "last_modified": "2026-03-26 18:00:47",
+                "publication_date": null,
+                "body": null,
+                "permission_group": "public"
+              }
+            },
+            "@attributes": {
+              "id": 2,
+              "datatype": "document",
+              "order": 5,
+              "multiple": 0,
+              "visible": "detail"
+            }
+          },
+          {
+            "label": "Type",
+            "value": "Raadsbrief",
+            "@attributes": {
+              "id": 45,
+              "datatype": "varchar",
+              "order": 6,
+              "multiple": 0,
+              "visible": "both"
+            }
+          }
+        ]
+      },
+      "@attributes": {
+        "id": 1147320,
+        "creation_date": null,
+        "last_modified": "2026-03-26 18:00:47",
+        "confidential": 0,
+        "body": null,
+        "permission_group": "public",
+        "organisation_id": 686,
+        "module_id": 8
+      }
+    }
+  ]
+}

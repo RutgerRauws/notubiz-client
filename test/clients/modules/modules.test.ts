@@ -61,7 +61,11 @@ describe('ModulesClient', () => {
       fetch: fetchMock as typeof globalThis.fetch,
     })
 
-    const moduleDetails = await client.modules.getById(6)
+    const moduleDetails = await client.modules.getById(
+      6,
+      new Date(2025, 0, 1),
+      new Date(2025, 11, 31)
+    )
 
     expect(moduleDetails.items).toHaveLength(5)
 

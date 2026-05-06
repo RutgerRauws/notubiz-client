@@ -1,7 +1,9 @@
 import { type RequestOptions, HttpClient } from '../../http'
-import { ModuleDetails } from './models/module-details'
+import { type ModuleItem, ModuleDetails } from './models/module-details'
 import { type ModulesOverview } from './models/modules-overview'
-import { mapModuleResponse, mapModulesResponse } from './serializer'
+import { mapModulePageResponse, mapModulesResponse } from './serializer'
+
+const PAGE_SIZE = 50
 
 export class ModulesClient {
   public constructor(private readonly httpClient: HttpClient) {}
@@ -18,14 +20,33 @@ export class ModulesClient {
 
   public async getById(
     moduleId: number,
+    dateFrom: Date,
+    dateTo: Date,
     options: RequestOptions = {}
   ): Promise<ModuleDetails> {
-    const response = await this.httpClient.getJson<unknown>(
-      `modules/${moduleId}`,
-      {},
-      options
-    )
+    const items: ModuleItem[] = []
+    let hasMorePages = true
+    let offset = 0
 
-    return mapModuleResponse(response)
+    while (hasMorePages) {
+      const response = await this.httpClient.getJson<unknown>(
+        `modules/${moduleId}/items/`,
+        {
+          organisation_id: this.httpClient.organisationId,
+          date_from: dateFrom,
+          date_to: dateTo,
+          list_start: offset,
+          list_end: offset + PAGE_SIZE,
+        },
+        options
+      )
+
+      const page = mapModulePageResponse(response)
+      items.push(...page.items)
+      hasMorePages = page.hasMorePages
+      offset += PAGE_SIZE
+    }
+
+    return new ModuleDetails(items)
   }
 }

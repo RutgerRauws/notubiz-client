@@ -11,6 +11,7 @@ import {
 } from '../../utils/utils'
 import {
   type DocumentModuleAttachment,
+  type ModuleDocument,
   type ModuleItem,
   type ModuleItemAttribute,
   type ModuleItemAttributeReference,
@@ -47,7 +48,9 @@ export interface ModulePageResponse {
 export function mapModulePageResponse(input: unknown): ModulePageResponse {
   const response = requireRecord(input, 'module details response')
 
-  const items = toRecordArray(response.item).map(mapModuleItem)
+  const items = toRecordArray(response.item).map((item, index) =>
+    mapModuleItem(item, `item[${index}]`)
+  )
   const hasMorePages = parseHasMorePages(response.pagination)
 
   return { items, hasMorePages }
@@ -72,38 +75,40 @@ function parseHasMorePages(input: unknown): boolean {
   return listEnd < totalResults
 }
 
-function mapModuleItem(input: unknown, index: number): ModuleItem {
-  const item = requireRecord(input, `item[${index}]`)
+export function mapModuleItemResponse(input: unknown): ModuleItem {
+  const response = requireRecord(input, 'module item response')
+
+  return mapModuleItem(response.item, 'item')
+}
+
+// The title has this id in every module, though its label differs (e.g.
+// 'Titel' or 'Onderwerp')
+const TITLE_ATTRIBUTE_ID = 1
+
+function mapModuleItem(input: unknown, context: string): ModuleItem {
+  const item = requireRecord(input, context)
   const itemAttributes = requireRecord(
     item['@attributes'],
-    `item[${index}].@attributes`
+    `${context}.@attributes`
   )
 
-  const attributesRoot = requireRecord(
-    item.attributes,
-    `item[${index}].attributes`
-  )
+  const attributesRoot = requireRecord(item.attributes, `${context}.attributes`)
   const attributes = toRecordArray(attributesRoot.attribute).map((attr, i) =>
-    mapModuleItemAttribute(
-      attr,
-      `item[${index}].attributes.attribute[${i}]`
-    )
+    mapModuleItemAttribute(attr, `${context}.attributes.attribute[${i}]`)
   )
 
-  const titleAttribute = attributes.find((a) => a.label === 'Titel')
+  const titleAttribute = attributes.find((a) => a.id === TITLE_ATTRIBUTE_ID)
 
   let attachments: DocumentModuleAttachment[] = []
   if (isRecord(item.attachments)) {
     attachments = toRecordArray(item.attachments.document).map((doc, i) =>
-      mapDocumentAttachment(
-        doc,
-        `item[${index}].attachments.document[${i}]`
-      )
+      mapDocumentAttachment(doc, `${context}.attachments.document[${i}]`)
     )
   }
 
   return {
-    id: requireNumber(itemAttributes.id, `item[${index}].@attributes.id`),
+    id: requireNumber(itemAttributes.id, `${context}.@attributes.id`),
+    moduleId: getNumber(itemAttributes.module_id),
     name: getString(titleAttribute?.value) ?? '',
     creationDate: parseNotubizDate(itemAttributes.creation_date),
     lastModified: parseNotubizDate(itemAttributes.last_modified),
@@ -123,7 +128,10 @@ function mapModuleItemAttribute(
 
   const isMultiple = toBoolean(meta.multiple)
 
+  const datatype = getString(meta.datatype) ?? ''
+
   let value: string | null = null
+  let document: ModuleDocument | null = null
   const references: ModuleItemAttributeReference[] = []
 
   if (isMultiple && isRecord(attr.values)) {
@@ -132,6 +140,8 @@ function mapModuleItemAttribute(
         mapAttributeReference(ref, `${context}.values.value[${i}]`)
       )
     )
+  } else if (datatype === 'document' && isRecord(attr.value)) {
+    document = mapModuleDocument(attr.value, `${context}.value`)
   } else {
     value = getString(attr.value)
   }
@@ -139,12 +149,13 @@ function mapModuleItemAttribute(
   return {
     id: requireNumber(meta.id, `${context}.@attributes.id`),
     label: getString(attr.label) ?? '',
-    datatype: getString(meta.datatype) ?? '',
+    datatype,
     order: requireNumber(meta.order, `${context}.@attributes.order`),
     multiple: isMultiple,
     visible: getString(meta.visible) ?? '',
     value,
     references,
+    document,
   }
 }
 
@@ -165,16 +176,26 @@ function mapAttributeReference(
   }
 }
 
+function mapModuleDocument(input: unknown, context: string): ModuleDocument {
+  const doc = requireRecord(input, context)
+  const docAttributes = isRecord(doc['@attributes']) ? doc['@attributes'] : {}
+
+  return {
+    id: getNumber(docAttributes.id),
+    title: getString(doc.title) ?? '',
+    filetype: getString(doc.filetype) ?? '',
+    url: getString(doc.url) ?? '',
+    version: getNumber(docAttributes.version),
+    lastModified: parseNotubizDate(docAttributes.last_modified),
+  }
+}
+
 function mapDocumentAttachment(
   input: unknown,
   context: string
 ): DocumentModuleAttachment {
-  const doc = requireRecord(input, context)
-
   return {
     type: 'document',
-    title: getString(doc.title) ?? '',
-    filetype: getString(doc.filetype) ?? '',
-    url: getString(doc.url) ?? '',
+    ...mapModuleDocument(input, context),
   }
 }

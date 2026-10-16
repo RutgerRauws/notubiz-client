@@ -1,5 +1,6 @@
 import {
   type AgendaItem,
+  type AgendaItemModuleItem,
   type Document,
   type DocumentVersion,
   type Meeting,
@@ -63,6 +64,15 @@ export function mapDocument(input: unknown): Document {
   }
 }
 
+export function mapAgendaItemModuleItem(input: unknown): AgendaItemModuleItem {
+  const moduleItem = requireRecord(input, 'agenda item module item')
+
+  return {
+    id: requireNumber(moduleItem.id, 'agendaItemModuleItem.id'),
+    fieldId: getNumber(moduleItem.field_id),
+  }
+}
+
 export function mapAgendaItem(input: unknown): AgendaItem {
   const agendaItem = requireRecord(input, 'agenda item')
   const typeData = requireRecord(agendaItem.type_data, 'agenda item.type_data')
@@ -84,6 +94,9 @@ export function mapAgendaItem(input: unknown): AgendaItem {
     ),
     isHeading: toBoolean(typeData.heading),
     documents: toRecordArray(agendaItem.documents).map(mapDocument),
+    moduleItems: toRecordArray(agendaItem.module_items).map(
+      mapAgendaItemModuleItem
+    ),
     agendaItems: toRecordArray(agendaItem.agenda_items).map(mapAgendaItem),
   }
 }

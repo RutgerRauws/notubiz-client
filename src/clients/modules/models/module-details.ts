@@ -4,6 +4,15 @@ export interface ModuleItemAttributeReference {
   referenceModel: string | null
 }
 
+export interface ModuleDocument {
+  id: number | null
+  title: string
+  filetype: string
+  url: string
+  version: number | null
+  lastModified: Date | null
+}
+
 export interface ModuleItemAttribute {
   id: number
   label: string
@@ -13,6 +22,8 @@ export interface ModuleItemAttribute {
   visible: string
   value: string | null
   references: ModuleItemAttributeReference[]
+  // The value of an attribute with datatype 'document', e.g. the main document
+  document: ModuleDocument | null
 }
 
 export interface ModuleAttachment {
@@ -26,14 +37,16 @@ export interface LinkModuleAttachment extends ModuleAttachment {
   url: string
 }
 
-export interface DocumentModuleAttachment extends ModuleAttachment {
+export interface DocumentModuleAttachment
+  extends ModuleAttachment,
+    ModuleDocument {
   type: 'document'
-  filetype: string
-  url: string
 }
 
 export interface ModuleItem {
   id: number
+  // The module the item belongs to, e.g. the council proposals
+  moduleId: number | null
   name: string
 
   creationDate: Date | null

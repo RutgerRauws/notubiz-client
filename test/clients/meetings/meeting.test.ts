@@ -57,6 +57,17 @@ describe('meeting serializer', () => {
     expect(agendaItems[4].agendaItems[1].agendaItems).toHaveLength(0)
   })
 
+  it('maps module items on agenda items', () => {
+    const meeting = mapMeetingResponse(meetingFixture)
+
+    expect(meeting.agendaItems[0].moduleItems).toHaveLength(0)
+    expect(meeting.agendaItems[1].moduleItems).toEqual([
+      { id: 926664, fieldId: 54 },
+      { id: 930238, fieldId: 54 },
+    ])
+    expect(meeting.agendaItems[5].moduleItems).toHaveLength(3)
+  })
+
   it('maps documents on agenda items', () => {
     const meeting = mapMeetingResponse(meetingFixture)
 

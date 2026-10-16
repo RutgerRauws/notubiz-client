@@ -18,6 +18,13 @@ export interface Document {
   versions: DocumentVersion[]
 }
 
+// A module item (e.g. a council proposal) handled in an agenda item
+export interface AgendaItemModuleItem {
+  id: number
+  // The module item's field that refers to the agenda item
+  fieldId: number | null
+}
+
 export interface AgendaItem {
   id: number
   lastModified: Date
@@ -27,6 +34,7 @@ export interface AgendaItem {
   endDate: Date | null
   isHeading: boolean
   documents: Document[]
+  moduleItems: AgendaItemModuleItem[]
   agendaItems: AgendaItem[]
 }
 

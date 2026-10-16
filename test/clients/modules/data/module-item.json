@@ -1,0 +1,156 @@
+{
+  "item": {
+    "attributes": {
+      "attribute": [
+        {
+          "label": "Datum",
+          "value": "2026-10-05 00:00:00",
+          "@attributes": {
+            "id": 15,
+            "datatype": "datetime",
+            "order": 2,
+            "multiple": 0,
+            "visible": "both"
+          }
+        },
+        {
+          "label": "Titel",
+          "value": "Raadsvoorstel benoeming en ontheffing leden meningsvormende vergadering 6 oktober 2026",
+          "@attributes": {
+            "id": 1,
+            "datatype": "varchar",
+            "order": 3,
+            "multiple": 0,
+            "visible": "both"
+          }
+        },
+        {
+          "label": "Route",
+          "values": { "value": ["Raadsvergadering", "Afgerond"] },
+          "@attributes": {
+            "id": 103,
+            "datatype": "varchar",
+            "order": 4,
+            "multiple": 1,
+            "visible": "detail"
+          }
+        },
+        {
+          "label": "Status",
+          "value": "Afgerond",
+          "@attributes": {
+            "id": 71,
+            "datatype": "varchar",
+            "order": 5,
+            "multiple": 0,
+            "visible": "both"
+          }
+        },
+        {
+          "label": "Hoofddocument",
+          "value": {
+            "title": "Raadsvoorstel benoeming of ontheffing leden meningsvormende vergadering 6 oktober 2026",
+            "filetype": "pdf",
+            "url": "https://api.notubiz.nl/document/17504445/1",
+            "types": {
+              "type": [{ "name": "Raadsvoorstel", "@attributes": { "id": 21 } }]
+            },
+            "@attributes": {
+              "id": 17504445,
+              "version": 1,
+              "last_modified": "2026-10-06 11:33:13",
+              "publication_date": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          "@attributes": {
+            "id": 2,
+            "datatype": "document",
+            "order": 6,
+            "multiple": 0,
+            "visible": "detail"
+          }
+        },
+        {
+          "label": "Vergadering",
+          "values": {
+            "value": [
+              {
+                "@cdata": "Benoeming en ontheffing leden van de Meningsvormende Vergadering (Raadsvergadering 06-10-2026 15:00)",
+                "@attributes": {
+                  "id": 10622882,
+                  "reference_model": "agenda_item"
+                }
+              }
+            ]
+          },
+          "@attributes": {
+            "id": 54,
+            "datatype": "varchar",
+            "order": 15,
+            "multiple": 1,
+            "visible": "both"
+          }
+        },
+        {
+          "label": "Raadsbesluit",
+          "value": {
+            "title": "Vastgesteld besluit Raadsvoorstel benoeming of ontheffing leden meningsvormende vergadering 6 oktober 2026",
+            "filetype": "pdf",
+            "url": "https://api.notubiz.nl/document/17520418/1",
+            "types": {
+              "type": [{ "name": "Besluit", "@attributes": { "id": 12 } }]
+            },
+            "@attributes": {
+              "id": 17520418,
+              "version": 1,
+              "last_modified": "2026-10-08 13:23:38",
+              "publication_date": null,
+              "body": null,
+              "permission_group": "public"
+            }
+          },
+          "@attributes": {
+            "id": 98,
+            "datatype": "document",
+            "order": 16,
+            "multiple": 0,
+            "visible": "detail"
+          }
+        }
+      ]
+    },
+    "attachments": {
+      "document": [
+        {
+          "filetype": "pdf",
+          "title": "Advies geloofsbrievencommissie benoemen commissieleden 6 oktober 2026",
+          "url": "https://api.notubiz.nl/document/17504444/1",
+          "types": {
+            "type": [{ "name": "Advies", "@attributes": { "id": 114 } }]
+          },
+          "@attributes": {
+            "id": 17504444,
+            "last_modified": "2026-10-08 17:08:01",
+            "version": 1,
+            "publication_date": null,
+            "case_code": null,
+            "body": null,
+            "permission_group": "public"
+          }
+        }
+      ]
+    },
+    "@attributes": {
+      "id": "1210245",
+      "creation_date": null,
+      "last_modified": "2026-10-08 17:08:01",
+      "confidential": "0",
+      "body": null,
+      "permission_group": "public",
+      "organisation_id": 686,
+      "module_id": 19
+    }
+  }
+}

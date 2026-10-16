@@ -3,6 +3,7 @@ import { describe, expect, it, vi } from 'vitest'
 import { NotubizClient } from '../../../src/notubiz-client'
 import module4DetailsFixture from './data/module-4-details.json'
 import module8DetailsFixture from './data/module-8-details.json'
+import moduleItemFixture from './data/module-item.json'
 import modulesFixture from './data/modules.json'
 
 function createJsonResponse(payload: unknown, status = 200): Response {
@@ -144,9 +145,27 @@ describe('ModulesClient', () => {
     expect(firstItem.attachments).toHaveLength(2)
     expect(firstItem.attachments[0]).toMatchObject({
       type: 'document',
+      id: 16668794,
       title: 'Bijlage 1 -Flyer Regeldruk verlagen door Snappen of Schrappen',
       filetype: 'pdf',
       url: 'https://api.notubiz.nl/document/16668794/1',
+      version: 1,
+    })
+    expect(firstItem.attachments[0].lastModified).toEqual(
+      new Date(2026, 2, 4, 11, 4, 16)
+    )
+
+    // Check a document-valued attribute (Hoofddocument)
+    const mainDocument = firstItem.attributes.find(
+      (a) => a.datatype === 'document'
+    )
+    expect(mainDocument?.value).toBeNull()
+    expect(mainDocument?.document).toMatchObject({
+      id: 16668793,
+      title: 'Raadsbrief Voortgang optimaliseren Ondernemers Dienstverlening',
+      filetype: 'pdf',
+      url: 'https://api.notubiz.nl/document/16668793/1',
+      version: 1,
     })
 
     // Item without attachments
@@ -166,5 +185,56 @@ describe('ModulesClient', () => {
 
     const requestUrl = new URL(firstRequestInput.toString())
     expect(requestUrl.pathname).toBe('/modules/8/items/')
+  })
+
+  it('fetches a single module item by id', async () => {
+    const fetchMock = vi.fn(async (_input: RequestInfo | URL) =>
+      createJsonResponse(moduleItemFixture)
+    )
+
+    const client = new NotubizClient({
+      organisationId: 686,
+      fetch: fetchMock as typeof globalThis.fetch,
+    })
+
+    const item = await client.modules.getItem(1210245)
+
+    expect(item).toMatchObject({
+      id: 1210245,
+      moduleId: 19,
+      name: 'Raadsvoorstel benoeming en ontheffing leden meningsvormende vergadering 6 oktober 2026',
+      confidential: false,
+      permissionGroup: 'public',
+    })
+    expect(item.attributes).toHaveLength(7)
+    expect(item.attachments).toHaveLength(1)
+
+    const decision = item.attributes.find((a) => a.id === 98)
+    expect(decision?.document).toMatchObject({
+      id: 17520418,
+      url: 'https://api.notubiz.nl/document/17520418/1',
+    })
+
+    // The agenda items the item is handled in
+    const meetings = item.attributes.find((a) => a.id === 54)
+    expect(meetings?.references).toEqual([
+      {
+        id: 10622882,
+        value:
+          'Benoeming en ontheffing leden van de Meningsvormende Vergadering (Raadsvergadering 06-10-2026 15:00)',
+        referenceModel: 'agenda_item',
+      },
+    ])
+
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+
+    const firstRequestInput = fetchMock.mock.calls[0]?.[0]
+
+    if (firstRequestInput === undefined) {
+      throw new Error('Expected fetch to be called with a request URL.')
+    }
+
+    const requestUrl = new URL(firstRequestInput.toString())
+    expect(requestUrl.pathname).toBe('/modules/0/items/1210245')
   })
 })

@@ -1,7 +1,11 @@
 import { type RequestOptions, HttpClient } from '../../http'
 import { type ModuleItem, ModuleDetails } from './models/module-details'
 import { type ModulesOverview } from './models/modules-overview'
-import { mapModulePageResponse, mapModulesResponse } from './serializer'
+import {
+  mapModuleItemResponse,
+  mapModulePageResponse,
+  mapModulesResponse,
+} from './serializer'
 
 const PAGE_SIZE = 50
 
@@ -48,5 +52,20 @@ export class ModulesClient {
     }
 
     return new ModuleDetails(items)
+  }
+
+  // A single item of any module, e.g. one an agenda item refers to. Its
+  // moduleId tells which module it belongs to
+  public async getItem(
+    itemId: number,
+    options: RequestOptions = {}
+  ): Promise<ModuleItem> {
+    const response = await this.httpClient.getJson<unknown>(
+      `modules/0/items/${itemId}`,
+      {},
+      options
+    )
+
+    return mapModuleItemResponse(response)
   }
 }
